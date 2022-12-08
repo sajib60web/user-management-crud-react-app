@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+/* own style  */
+.card {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #282c34;
+  color: white;
+}
+.btn {
+  padding: 0.5rem;
+  margin: 0.5rem;
+  min-width: 5rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.btn:hover {
+  background-color: orange;
+}
+
+input {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 20rem;
+}
+
+section {
+  display: grid;
+}
+
+@media screen and (min-width: 600px) {
+  section {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  section {
+    grid-template-columns: auto auto auto;
+  }
+}
+@media screen and (min-width: 992px) {
+  section {
+    grid-template-columns: auto auto auto auto;
+  }
+}
